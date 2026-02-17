@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+  color: #22223b;
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.octofit-logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem 2rem;
+}
+.octofit-logo img {
+  height: 48px;
+  width: auto;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.navbar {
+  background: #22223b;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  box-shadow: 0 2px 8px rgba(34,34,59,0.08);
+}
+.navbar a {
+  color: #fff;
+  margin: 0 1rem;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.navbar a:hover {
+  color: #ff6f61;
+}
+
+.App-header {
+  background: #4f8cff;
+  color: #fff;
+  padding: 2rem 0 1rem 0;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+
+a {
+  color: #4f8cff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #ff6f61;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #22223b;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+h1 {
+  color: #4f8cff;
+}
+h2 {
+  color: #ff6f61;
+}
+h3 {
+  color: #22223b;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(34,34,59,0.08);
+  border-radius: 12px;
+  overflow: hidden;
+}
+th, td {
+  padding: 1rem;
+  border-bottom: 1px solid #e0e7ff;
+}
+th {
+  background: #4f8cff;
+  color: #fff;
+}
+tr:nth-child(even) {
+  background: #f8fafc;
+}
+tr:hover {
+  background: #e0e7ff;
+}
+
+button, .btn {
+  background: #ff6f61;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 0.5rem;
+  transition: background 0.2s;
+}
+button:hover, .btn:hover {
+  background: #4f8cff;
+}
+
+.App-footer {
+  background: #22223b;
+  color: #fff;
+  padding: 1rem 0;
+  margin-top: auto;
+}
